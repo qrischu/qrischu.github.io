@@ -5,6 +5,14 @@ description: Peer reviewed Journal articles
 ---
 #### Peer reviewed journal articles
 
+Baaken, M. C., Kuhfuss, L., Bougherara, D., Czajkowski, M., Rodriguez‐Entrena, M., Höhler, J., ... & Zagórska, K. (2025). Multi‐country perspectives on best practices and barriers to preference elicitation lab‐in‐the‐field experiments with farmers. Applied Economic Perspectives and Policy, 47(2), 723-746.
+
+<a href="https://doi.org/10.1002/aepp.13488">Open Access Link</a>
+
+Pätzke, F., Schulze, C., Hack, J., Castro-Arce, K., Neumann, V. A., & Schröter, B. (2024). Attitudes of political-administrative decision makers towards the implementation of nature-based solutions in water management–a case study on a hypothetical constructed wetland in the Tárcoles River basin. Ecosystems and People, 20(1), 2339228.
+
+<a href="https://doi.org/10.1111/1477-9552.12570">Open Access Link</a>
+
 Schulze, C., Matzdorf, B., Rommel, J., Czajkowski, M., García-Llorente, M., Gutiérrez-Briceño, I., ... & Zawadzki, W. (2024). Between farms and forks: Food industry perspectives on the future of EU food labelling. Ecological Economics, 217, 108066.
 
 <a href="https://doi.org/10.1016/j.ecolecon.2023.108066">Link</a>
