@@ -1,7 +1,7 @@
 ---
 layout: frontpage
 title: Christoph Schulze
-description: Christoph Schulze is a PhD candidate at Leibniz University Hannover. 
+description: Christoph Schulze is a Postdoc at the Leibniz Centre for Agricultural Landscape Research. 
 keywords: Discrete Choice Experiments, Ecological Economics, Ecosystem Services, Behavioral Economics
 ---
 
