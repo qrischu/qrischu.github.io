@@ -29,8 +29,8 @@ In my free time, I enjoy running and woodworking of all kinds.
         </div>
 
         <div class="span2">
-        <a href="../assets/headshot2.jpg">
-            <img src="../assets/headshot2.jpg"
+        <a href="../assets/HNP_8371_cut.jpg">
+            <img src="../assets/HNP_8371_cut.jpg"
                   title="Christoph Schulze" alt="Christoph Schulze"/></a>
         </div>
     </div>
