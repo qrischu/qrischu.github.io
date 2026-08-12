@@ -1,0 +1,30 @@
+---
+title: Education
+image: ../images/field.png
+about: # https://quarto.org/docs/websites/website-about.html
+  template: marquee
+---
+
+## PhD Agricultural Economics
+
+Leibniz University Hannover \| January 2026
+
+Title: *On the Institutional Design of Agri-Environmental Contracts: Evidence from Preferences, Attitudes, and Identities*
+
+## MSc Ecological Economics
+
+University of Edinburgh \| August 2018
+
+Dissertation: *Peatland restoration through the lens of public preferences: A discrete choice experiment approach investigating time preferences and framing effects of ecosystem restoration*
+
+## MSc International Economics
+
+University of Tübingen \| September 2016
+
+Dissertation: *The Effects of European Regional Policy - An Empirical Evaluationof Objective 1 and Objective 2 Policy*
+
+## BSc International Economics
+
+University of Tübingen \| April 2013
+
+Dissertation: *Human Capital Development under Porfiriato Policies in Mexico*

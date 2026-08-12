@@ -1,0 +1,32 @@
+{
+    "id": "1B8C7622",
+    "path": "~/ich/website/Education/index.qmd",
+    "project_path": "Education/index.qmd",
+    "type": "quarto_markdown",
+    "hash": "3267359208",
+    "contents": "",
+    "dirty": false,
+    "created": 1786483633072.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "29,76",
+        "scrollLine": "1",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1786564590,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1786564590051,
+    "read_only": false,
+    "read_only_alternatives": []
+}

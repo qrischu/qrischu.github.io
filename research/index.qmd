@@ -1,0 +1,46 @@
+---
+title: Research & Publications
+image: ../images/bohne_cut.png
+about: # https://quarto.org/docs/websites/website-about.html
+  template: marquee
+---
+
+## Research
+
+My research lies on the intersection of agricultural economics, environmental governance, and behavioural experiments.
+
+### PhD research
+
+My PhD research investigated farmer preferences for the institutional design of agri-environmental contracts. The dissertation can be found [here](https://doi.org/10.15488/20404).
+
+## Publications
+
+Budziński, W., Czajkowski, M., Le Clec’h, S., Markiewicz, O., Matzdorf, B., Opatrný, M., ... & Zawadzki, W. (2026). Volumetric choice experiments and welfare measures in a subsidy-driven context. *Resource and Energy Economics*, 101572.
+
+Rønn, T. H., **Schulze, C.**, Czajkowski, M., Matzdorf, B., Moreno-Pérez, O. M., Olsen, S. B., ... & Zawadzki, W. (2026). Weak pulse: a Q-methodology study of stakeholder viewpoints on barriers in European food legume value chains. *Food Policy*, 139, 103033.
+
+**Schulze, C.**, Glenk, K., Sagebiel, J., & Matzdorf, B. (2026). Private or Public? Farmer Preferences and Identities in Agri‐Environmental Contract Implementation. *Journal of Agricultural Economics*, 77(1), 107-129.
+
+Moroder, A., Reichenspurner, M., Erismann, C., **Schulze, C.**, & Matzdorf, B. (2025). Farmers’ views on the institutional design of agri-environmental collectives: a case study in Brandenburg, Germany. *Journal of Environmental Planning and Management*, 1-29.
+
+Baaken, M. C., Kuhfuss, L., Bougherara, D., Czajkowski, M., Rodriguez‐Entrena, M., Höhler, J., … & Zagórska, K. (2025). Multi‐country perspectives on best practices and barriers to preference elicitation lab‐in‐the‐field experiments with farmers. *Applied Economic Perspectives and Policy*, 47(2), 723-746.
+
+Pätzke, F., **Schulze, C.**, Hack, J., Castro-Arce, K., Neumann, V. A., & Schröter, B. (2024). Attitudes of political-administrative decision makers towards the implementation of nature-based solutions in water management–a case study on a hypothetical constructed wetland in the Tárcoles River basin. *Ecosystems and People*, 20(1), 2339228.
+
+**Schulze, C.**, Matzdorf, B., Rommel, J., Czajkowski, M., García-Llorente, M., Gutiérrez-Briceño, I., … & Zawadzki, W. (2024). Between farms and forks: Food industry perspectives on the future of EU food labelling. *Ecological Economics*, 217, 108066.
+
+**Schulze, C.**, Zagórska, K., Häfner, K., Markiewicz, O., Czajkowski, M., & Matzdorf, B. (2023). Using farmers’ ex ante preferences to design agri‐environmental contracts: A systematic review. *Journal of Agricultural Economics*, 75(1), 44-83.
+
+**Schulze, C.**, & Matzdorf, B. (2023). The institutional design of agri-environmental contracts-How stakeholder attitudes can inform policy making. *Q Open*, 3(1), qoad001.
+
+Rommel, J., Sagebiel, J., Baaken, M. C., Barreiro‐Hurlé, J., Bougherara, D., Cembalo, L., … & Zagórska, K. (2022). Farmers’ risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al.(2014). *Applied Economic Perspectives and Policy*, 45(3), 1374-1399.
+
+Rommel, J., **Schulze, C.**, Matzdorf, B., Sagebiel, J., & Wechner, V. (2022). Learning about German farmers’ willingness to cooperate from public goods games and expert predictions. *Q Open*, 3(3), qoac023.
+
+Sattler, C., Rommel, J., Chen, C., García-Llorente, M., Gutiérrez-Briceño, I., Prager, K., … & Kelemen, E. (2022). Participatory research in times of COVID-19 and beyond: Adjusting your methodological toolkits. *One Earth*, 5(1), 62-73.
+
+Tafel, L., Ott, E., Brillinger, M., **Schulze, C.**, & Schröter, B. (2021). Attitudes of administrative decision-makers towards nature-based solutions for flood risk management in Germany. *Sustainability Science*, 1-15.
+
+Glenk, K., Faccioli, M., Martin-Ortega, J., **Schulze, C.**, & Potts, J. (2021). The opportunity cost of delaying climate action: Peatland restoration and resilience to climate change. *Global Environmental Change*, 70, 102323.
+
+Norris, J., Matzdorf, B., Barghusen, R., **Schulze, C.**, & van Gorcum, B. (2021). Viewpoints on Cooperative Peatland Management: Expectations and Motives of Dutch Farmers. *Land*, 10(12), 1326.

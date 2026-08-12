@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  title: "Home"
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    title: Christoph Schulze
+    right:
+      - text: Home
+        href: index.qmd
+      - href: education/index.qmd
+        text: Education
+        icon: mortarboard
+      - href: research/index.qmd
+        text: Research
+        icon: lightbulb
+      - href: teaching/index.qmd
+        text: Teaching
+        icon: megaphone
+      - href: tools/index.qmd
+        text: Tools
+        icon: tools
+      - href: projects/index.qmd
+        text: Projects
+        icon: gear
+      - href: assets/cv.pdf
+        text: CV
+        icon: bullseye
+      
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+          <style>
+            .bi-orcid::before {
+              font-family: "Font Awesome 6 Brands" !important;
+              font-weight: 400;
+              content: "\f8d2" !important;
+            }
+          </style>

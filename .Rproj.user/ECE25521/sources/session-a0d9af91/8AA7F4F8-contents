@@ -1,0 +1,28 @@
+---
+title: "Christoph Schulze"
+subtitle: "Agricultural Economics | Environmental Governance | Behavioural Experiments"
+image: images/profile.jpg
+about: # https://quarto.org/docs/websites/website-about.html
+  template: trestles
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/qrischu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christoph-schulze-413182bb/
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0003-2637-8178
+---
+
+## Intro
+
+I am a Postdoc researcher in the *Governance of Ecosystem Services* working group at the Leibniz Centre for Agricultural Landscape Research (ZALF).
+
+My research asks how innovative governance mechanisms can support the transition to sustainable food systems. I work on collective and result-based agri-environmental contracts, on eco-labels, and on voluntary markets for biodiversity, studying how farmers, food companies, and consumers respond to them. To do this I combine Discrete Choice Experiments, behavioural games, and Q-methodology.
+
+I am especially interested in questions of institutional design. Who contracts with whom? How are outcomes rewarded? How long do agreements run? These details often matter more for uptake than the payment level does, and they are easy to overlook when schemes are designed from the top down.
+
+

@@ -1,0 +1,30 @@
+- title: Visionary
+  path: https://visionary-project.eu/the-project/
+  image: images/visionary_logo.png
+  description: >
+    Visionary (*Horizon Europe*, 2022-2026) studied behavioural drivers of the transition to 
+    sustainable food systems. I led the work package task investigating whether a governmental 
+    biodiversity label increases farmers' willingness to adopt targeted conservation measures, 
+    via a Discrete Choice Experiment across four countries.
+  categories: [Food systems, Discrete Choice Experiments, Q-methodology, Factorial Survey Experiments]
+
+- title: Contracts2.0
+  path: https://www.project-contracts20.eu/
+  image: images/contracts_logo.png
+  description: >
+    Contracts2.0 (*Horizon 2020*, 2019-2023) co-designed novel contract models for agri-environmental measures, 
+    combining results-based, collective, land tenure and value chain approaches across eleven innovation labs 
+    in nine European countries. I worked in the work package on *ex-ante* analysis of novel contracts, leading 
+    the task on consumer preferences for label-based approaches that bundle ecosystem service provision with 
+    agricultural products, studied through Discrete Choice Experiments in several European countries.
+  categories: [Discrete Choice Experiments, Public Goods Games]
+
+- title: AgoraNatura
+  path: https://www.agora-natura.de/
+  # Photo by Anne Nygård on Unsplash https://unsplash.com/photos/white-clouds-in-blue-sky-vc-vPgGqAr4
+  image: images/agora_logo.png
+  description: >
+    AgoraNatura (*BMBF*, 2016–2020) developed a web-based marketplace matching landowners offering privately 
+    financed conservation measures with buyers willing to pay for them. I worked in the sub-project on institutional 
+    analysis, studying farmers' ex ante preferences for such contracts via a Discrete Choice Experiment.
+  categories: [Discrete Choice Experiments]

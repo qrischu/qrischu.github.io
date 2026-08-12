@@ -1,0 +1,19 @@
+---
+title: Tools
+image: ../images/methods.png
+about: # https://quarto.org/docs/websites/website-about.html
+  template: marquee
+---
+
+## Tools and material
+
+This page collects resources I've found useful in my own research, most of which centres on Discrete Choice Experiments and Q-methodology. Materials here are organised around these two methods.
+
+### Q-methodology
+
+A few resources that make it easier to get started with a Q-study:
+
+- To collect data online, [Aproxima](https://github.com/aproxima/htmlq) offers a neat, free tool for running a Q-sort.
+- For analysis, Aiora Zabala's R package [qmethod](https://github.com/aiorazabala/qmethod) covers the full workflow from data import to factor rotation.
+- If you're not familiar with R, the same author also provides a [Shiny app](https://azabala.shinyapps.io/qmethod-gui/) version of qmethod with a graphical interface.
+- To understand what the code is actually doing, I recommend the qmethod [Cookbook](https://aiorazabala.github.io/qmethod/Cookbook), or a little more humbly an annotated [example file](https://raw.githack.com/crokology/QforR/master/Instructions.html) I put together myself.
