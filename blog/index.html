@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Education – Home</title>
+<title>Blog – Home</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,10 +36,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -72,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
   .bi-orcid::before {
@@ -81,13 +113,41 @@ ul.task-list li input[type="checkbox"] {
   }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Education – Home">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://qrischu.github.io/images/field.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Blog – Home">
+<meta property="og:image" content="https://qrischu.github.io/blog/fourth-post/qopen_paper.png">
 <meta property="og:site_name" content="Home">
-<meta property="og:image:height" content="2200">
-<meta property="og:image:width" content="6000">
+<meta property="og:image:height" content="797">
+<meta property="og:image:width" content="646">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -112,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../education/index.html" aria-current="page"> <i class="bi bi-mortarboard" role="img">
+    <a class="nav-link" href="../education/index.html"> <i class="bi bi-mortarboard" role="img">
 </i> 
 <span class="menu-text">Education</span></a>
   </li>  
@@ -137,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> <i class="bi bi-send" role="img">
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> <i class="bi bi-send" role="img">
 </i> 
 <span class="menu-text">Blog</span></a>
   </li>  
@@ -159,46 +219,145 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-marquee">
-  <div class="about-image-container">
-    <img src="../images/field.png" class="about-image " style="width: 100%;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Education</h1>
+<h1 class="title">Blog</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> <main class="content" id="quarto-document-content">
-<section id="phd-agricultural-economics" class="level2">
-<h2 data-anchor-id="phd-agricultural-economics">PhD Agricultural Economics</h2>
-<p>Leibniz University Hannover | January 2026</p>
-<p>Title: <em>On the Institutional Design of Agri-Environmental Contracts: Evidence from Preferences, Attitudes, and Identities</em></p>
-</section>
-<section id="msc-ecological-economics" class="level2">
-<h2 data-anchor-id="msc-ecological-economics">MSc Ecological Economics</h2>
-<p>University of Edinburgh | August 2018</p>
-<p>Dissertation: <em>Peatland restoration through the lens of public preferences: A discrete choice experiment approach investigating time preferences and framing effects of ecosystem restoration</em></p>
-</section>
-<section id="msc-international-economics" class="level2">
-<h2 data-anchor-id="msc-international-economics">MSc International Economics</h2>
-<p>University of Tübingen | September 2016</p>
-<p>Dissertation: <em>The Effects of European Regional Policy - An Empirical Evaluationof Objective 1 and Objective 2 Policy</em></p>
-</section>
-<section id="bsc-international-economics" class="level2">
-<h2 data-anchor-id="bsc-international-economics">BSc International Economics</h2>
-<p>University of Tübingen | April 2013</p>
-<p>Dissertation: <em>Human Capital Development under Porfiriato Policies in Mexico</em></p>
+  
 
 
-</section>
-</main> 
-  </div>
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Tm9uLW1hcmtldCUyMHZhbHVhdGlvbiUyQ0RDRQ==" data-listing-date-sort="1789423200000" data-listing-file-modified-sort="1789655377736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="thumbnail"><a href="../blog/fourth-post/index.html" class="no-external">
+
+<img loading="lazy" src="../blog/fourth-post/qopen_paper.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/fourth-post/index.html" class="no-external">New paper in Q Open</a>
+</h3>
+<div class="delink listing-description"><a href="../blog/fourth-post/index.html" class="no-external">
+<p>A Pre-Registration Template for Transparent Choice Experiment Research</p>
+</a></div>
 </div>
- <!-- /main -->
+<div class="metadata">
+<a href="../blog/fourth-post/index.html" class="no-external">
+<div class="listing-date">
+Sep 15, 2026
+</div>
+<div class="listing-author">
+Chris
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Tm9uLW1hcmtldCUyMHZhbHVhdGlvbiUyQ0RDRQ==" data-listing-date-sort="1788559200000" data-listing-file-modified-sort="1786633509269" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
+<div class="thumbnail"><a href="../blog/third-post/index.html" class="no-external">
+
+<img loading="lazy" src="../blog/third-post/SLU-logo.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/third-post/index.html" class="no-external">Teaching PhD course on DCE</a>
+</h3>
+<div class="delink listing-description"><a href="../blog/third-post/index.html" class="no-external">
+<p>Discrete Choice Experiments in Agricultural, Food, and Environmental Economics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/third-post/index.html" class="no-external">
+<div class="listing-date">
+Sep 5, 2026
+</div>
+<div class="listing-author">
+Chris
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Tm9uLW1hcmtldCUyMHZhbHVhdGlvbiUyQ0NWTQ==" data-listing-date-sort="1788300000000" data-listing-file-modified-sort="1787719152227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
+<div class="thumbnail"><a href="../blog/second-post/index.html" class="no-external">
+
+<img loading="lazy" src="../blog/second-post/paper.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/second-post/index.html" class="no-external">New paper in JEEM</a>
+</h3>
+<div class="delink listing-description"><a href="../blog/second-post/index.html" class="no-external">
+<p>Contingent valuation of biodiversity measures</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/second-post/index.html" class="no-external">
+<div class="listing-date">
+Sep 2, 2026
+</div>
+<div class="listing-author">
+Chris
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UmVzZWFyY2glMkNBdWN0aW9ucw==" data-listing-date-sort="1786572000000" data-listing-file-modified-sort="1789489972917" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+<div class="thumbnail"><a href="../blog/first-post/index.html" class="no-external">
+
+<img loading="lazy" src="../blog/first-post/pres.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/first-post/index.html" class="no-external">CBEAR meets REECAP</a>
+</h3>
+<div class="delink listing-description"><a href="../blog/first-post/index.html" class="no-external">
+<p>Research visit at University of Guelph</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/first-post/index.html" class="no-external">
+<div class="listing-date">
+Aug 13, 2026
+</div>
+<div class="listing-author">
+Chris
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
